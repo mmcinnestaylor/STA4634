@@ -1,6 +1,6 @@
 data_file = "../data/Covtype/covtype.data"
-test_file = "../data/Covtype/covtype.test"
-train_file = "../data/Covtype/covtype.train"
+test_file = "../data/Covtype/covtypeTest.csv"
+train_file = "../data/Covtype/covtypeTrain.csv"
 
 with open(data_file, 'r') as d_file, open(test_file, 'w') as te_file, open(train_file, 'w') as tr_file:
     row = ['X' + str(i) for i in range(1, 55)] + ['Y\n']
